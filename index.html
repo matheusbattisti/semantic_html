@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Lesson</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <!-- The <header> element is used to introduce the page header, usually containing logos, titles, and navigation -->
+    <header>
+      <h1>Learning Semantic HTML</h1>
+      <nav>
+        <ul>
+          <li><a href="#introduction">Introduction</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#main-content">Main Content</a></li>
+          <li><a href="#extra">Additional Info</a></li>
+          <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <!-- The <main> tag defines the main content of the page, excluding headers, footers, and complementary information -->
+    <main id="main-content">
+      <section id="introduction">
+        <h2>What is Semantic HTML?</h2>
+        <p>
+          Semantic HTML uses elements that clearly describe the content they
+          carry, improving readability and accessibility.
+        </p>
+      </section>
+
+      <!-- Example of article -->
+      <!-- <article> is used for self-contained content that can be independently distributed, like blog posts, news articles, etc. -->
+      <article id="benefits">
+        <h2>Benefits of Semantic HTML</h2>
+        <p>Using semantic HTML offers several advantages:</p>
+        <ul>
+          <li>
+            Improves SEO, as search engines better understand the content.
+          </li>
+          <li>Facilitates code maintenance and readability.</li>
+          <li>Helps with accessibility for screen reader users.</li>
+        </ul>
+      </article>
+
+      <!-- Example of section -->
+      <!-- <section> groups a set of related content, useful for separating topics or distinct parts -->
+      <section>
+        <h3>Examples of Semantic Elements</h3>
+        <p>Let's explore some semantic elements:</p>
+        <ul>
+          <li><strong>header</strong> - Used for introducing headers.</li>
+          <li><strong>footer</strong> - Used for footer information.</li>
+          <li><strong>nav</strong> - Defines a navigation area.</li>
+          <li><strong>main</strong> - Wraps the main content.</li>
+          <li><strong>aside</strong> - Used for complementary information.</li>
+        </ul>
+      </section>
+
+      <!-- Example of aside -->
+      <!-- <aside> is for related but non-essential content, like ads or additional links -->
+      <aside id="extra">
+        <h4>Fun Fact</h4>
+        <p>
+          Did you know that using semantic HTML can improve the experience for
+          visually impaired users?
+        </p>
+      </aside>
+
+      <!-- Example of figure and figcaption -->
+      <!-- <figure> is used to illustrate images, charts, or code examples, with a description through <figcaption> -->
+      <figure>
+        <img
+          src="https://via.placeholder.com/400x200"
+          alt="Example of semantic HTML usage"
+        />
+        <figcaption>Practical example of semantic HTML usage.</figcaption>
+      </figure>
+
+      <!-- Example of details and summary -->
+      <!-- <details> is used to create an expandable section that can be opened for more information -->
+      <details>
+        <summary>More about Semantic HTML</summary>
+        <p>
+          Semantic HTML helps to better organize content and can improve
+          performance in some cases, as browsers better understand the page
+          structure.
+        </p>
+      </details>
+    </main>
+
+    <!-- Footer -->
+    <!-- The <footer> element contains information about the author, copyright, or important links related to the content -->
+    <footer id="conclusion">
+      <p>&copy; 2024 Hora de Codar - All rights reserved.</p>
+      <address>
+        Contact us:
+        <a href="mailto:support@horadecodar.com">support@horadecodar.com</a>
+      </address>
+    </footer>
+  </body>
+</html>
